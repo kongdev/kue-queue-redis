@@ -1,6 +1,6 @@
-class Config {
-    constructor() {
-        this.server = [
+
+
+module.exports = [
             {
                 host: '192.168.2.84',
                 port: 7001
@@ -20,13 +20,4 @@ class Config {
                 host: '192.168.2.84',
                 port: 7006
             }
-        ]
-    }
-
-    getConfig(){
-        return this.server;
-    }
-
-}
-
-module.exports = Config;
+        ];
