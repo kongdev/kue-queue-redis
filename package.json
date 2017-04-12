@@ -1,11 +1,11 @@
 {
-  "name": "rsmq",
+  "name": "kue-queue-redis-cluster",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "kong <nopaket_kong@hotmail.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -14,5 +14,6 @@
     "ioredis": "^2.5.0",
     "kue": "^0.11.5",
     "redis-clustr": "^1.5.2"
-  }
+  },
+  "repository": "https://github.com/kongdev/kue-queue-redis.git"
 }
